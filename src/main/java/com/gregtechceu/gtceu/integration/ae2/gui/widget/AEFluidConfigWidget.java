@@ -17,7 +17,7 @@ public class AEFluidConfigWidget extends ConfigWidget {
     }
 
     @Override
-    void init() {
+    protected void init() {
         int line;
         this.displayList = new IConfigurableSlot[this.config.length];
         this.cached = new IConfigurableSlot[this.config.length];
